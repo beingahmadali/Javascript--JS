@@ -5,7 +5,6 @@ function displayWelcomeMessage() {
 
     let sum = firstNumber + secondNumber;
 
-    // Select the output div and insert the new HTML inside it
     const outputDiv = document.getElementById("output");
     outputDiv.innerHTML = `
         <h3>Welcome Message</h3>
@@ -15,4 +14,8 @@ function displayWelcomeMessage() {
         <p>Second Number: ${secondNumber}</p>
         <p>Sum: ${sum}</p>
     `;
+
+
+
+
 }
